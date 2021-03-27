@@ -1,7 +1,7 @@
 function getData(){
     var url = document.getElementById('url').value;
     var myHeaders = new Headers();
-    myHeaders.append('Access-Control-Allow-Origin', 'https://github.com');
+    myHeaders.append('Access-Control-Allow-Origin', 'https://reboot13-git.github.io/');
        fetch(url,{
            method: 'GET',
            headers: myHeaders
