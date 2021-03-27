@@ -2,8 +2,7 @@ function getData(){
     var url = document.getElementById('url').value;
     
        fetch(url,{
-           method: 'GET',
-           mode: 'no-cors'
+           method: 'GET'
        })
        .then(response => response.json())
        .then(data => {
