@@ -3,17 +3,34 @@ body{
     color: #fff;
 }
 h4 {
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
 }
 .container {
-    display: border-box;
-    width: 80%;
+    width: 95%;
     align-items: center;
 }
 #json {
-    display: border-box;
+    box-sizing: border-box;
     margin-top: 20px;
+    display: flexbox;
+}
+
+footer {
+    padding-top: 15px;
+    background-color: #252529;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+}
+a {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
 }
