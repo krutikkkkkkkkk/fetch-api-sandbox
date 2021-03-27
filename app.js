@@ -10,7 +10,7 @@ function getData(){
            document.getElementById('jsonData').innerHTML = JSON.stringify(data);
        })
        .catch(error => {
-    document.getElementById('error').innerHTML = error);
+    document.getElementById('error').innerHTML = error;
        })
     
     }
